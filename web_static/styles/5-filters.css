@@ -1,0 +1,43 @@
+/* Filters styles */
+.filter-options {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    border-right: 1px solid #DDDDDD;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.locations, .amenities {
+    width: 48%; /* Adjust as needed */
+}
+
+.locations h3, .amenities h3 {
+    font-weight: 600;
+}
+
+.locations h4, .amenities h4 {
+    font-weight: 400;
+    font-size: 14px;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirBnB Clone - Inline Styling</title>
+</head>
+<body style="margin: 0; padding: 0;">
+    <header style="color: #FF0000; height: 70px; width: 100%;">
+        <!-- Header content here -->
+    </header>
+    
+    <footer style="color: #00FF00; height: 60px; width: 100%; text-align: center; position: fixed; bottom: 0;">
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+            Best School
+        </div>
+    </footer>
+</body>
+</html>
+
+
